@@ -1,4 +1,4 @@
-package main.java.com.ledger.api.account;
+package com.ledger.api.account;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

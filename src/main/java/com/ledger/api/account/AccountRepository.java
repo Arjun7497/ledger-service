@@ -1,4 +1,4 @@
-package main.java.com.ledger.api.account;
+package com.ledger.api.account;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

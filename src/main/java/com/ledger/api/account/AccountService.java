@@ -1,4 +1,4 @@
-package main.java.com.ledger.api.account;
+package com.ledger.api.account;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

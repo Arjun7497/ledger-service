@@ -1,4 +1,4 @@
-package main.java.com.ledger.api.account;
+package com.ledger.api.account;
 
 import jakarta.persistence.*;
 import java.time.Instant;
