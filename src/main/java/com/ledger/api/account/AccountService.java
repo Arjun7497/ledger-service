@@ -26,6 +26,6 @@ public class AccountService {
     @Transactional(readOnly = true)
     public Account getAccount(UUID id) {
         return accountRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Account not found: " + id));
+                .orElseThrow(() -> new AccountNotFoundException(id));
     }
 }
